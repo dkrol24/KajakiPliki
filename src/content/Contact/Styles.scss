@@ -1,0 +1,125 @@
+#kontakt {
+    position: relative;
+    background: url("../../assets/bgIMG.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+
+    // disable the default padding styles
+    .app__wrapper {
+        padding: 0;
+    }
+}
+
+.app__contact {
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .app__contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid rgb(50, 178, 50);
+        box-shadow: 0px 0px 10px rgb(50, 178, 50, 0.1);
+        width: 50%;
+        height: auto;
+
+
+        &:hover {
+            box-shadow: 0px 0px 10px rgb(50, 178, 50, 0.5);
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            width: 90%;
+            min-height: 100px;
+            margin: 0.5rem;
+        }
+    }
+
+    svg {
+        color: rgb(50, 178, 50);
+        width: 25px;
+        height: 25px;
+        margin: 0.2rem;
+    }
+}
+
+
+.app__footer-form {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    background-color: rgb(228, 241, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    div {
+        width: 65%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0.75rem 0;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: rgb(50, 178, 50);
+
+        transition: all 0.3s ease-in-out;
+
+        input,
+        textarea {
+            width: 99%;
+            padding: 1rem;
+            border: none;
+            border-radius: 0.7rem;
+            background-color: rgb(133, 232, 133);
+
+            color: black;
+            outline: none;
+        }
+
+        textarea {
+            height: 170px;
+        }
+
+        &:hover {
+            box-shadow: 0 0 25px var(--primary-color);
+        }
+    }
+
+    button {
+        padding: 1rem 2rem;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(50, 178, 50);
+
+        font-weight: 500;
+        color: black;
+        outline: none;
+        margin: 2rem 0 0 0;
+        font-family: var(--font-base);
+
+        transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgb(100, 230, 100);
+        }
+    }
+
+    @media screen and (max-width: 930px) {
+        width: 100%;
+        margin: 1rem 0;
+        height: 600px;
+    }
+}
