@@ -11,8 +11,8 @@ const Paths = () => {
       <h1 className='head-text'>Nie czekaj i już teraz sprawdź naszą ofertę!</h1>
       <div className='app__paths-container'>
       {data.paths.map((prop,index)=>(
-        <motion.div whileInView={{ x: [-300,0], opacity: [0, 1]}}
-        transition={{ duration: 1}} className='app__paths-offert' key={index}>
+        <motion.div whileInView={{opacity: [0, 1]}}
+        transition={{ duration: 0.7}} className='app__paths-offert' key={index}>
           <p className='big-text'>{prop.path}</p>
           <div>
           <p>{prop.description}</p>
@@ -24,8 +24,8 @@ const Paths = () => {
           <p className='p-text'><span style={{color:'black',fontWeight:'600'}}>Proponowana godzina zbiórki:</span> {prop.hours}</p>
           </motion.div>
       ))}
-       <motion.div  whileInView={{ x: [-300,0], opacity: [0, 1]}}
-            transition={{ duration: 1}} className="app__paths-container-info">
+       <motion.div  whileInView={{ opacity: [0, 1]}}
+            transition={{ duration: 0.7}} className="app__paths-container-info">
             <div >
             <BiInfoCircle/>
 

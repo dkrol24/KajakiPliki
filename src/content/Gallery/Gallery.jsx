@@ -43,8 +43,8 @@ const Gallery = () => {
 
 
   return (
-    <motion.div whileInView={{ y: [200,0], opacity: [0, 1]}}
-    transition={{ duration: 1}} className="app__gallery">
+    <motion.div whileInView={{ opacity: [0, 1]}}
+    transition={{ duration: 1}}  className="app__gallery">
     <WSPGallery
       galleryImages={galleryImages}
     />

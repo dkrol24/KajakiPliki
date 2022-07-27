@@ -8,7 +8,7 @@ const Guide = () => {
   return (
     <div className='app__guide'>
       <div className='app__guide-wrapper'>
-      <motion.div whileInView={{ x: [-200,0], opacity: [0, 1]}}
+      <motion.div whileInView={{ y: [-200,0], opacity: [0, 1]}}
     transition={{ duration: 0.7}} className='app__guide-info1'>
       <h1 className='big-text' style={{width:'100%'}}>Co zabrać na spływ?</h1>
       <div>
@@ -27,7 +27,7 @@ const Guide = () => {
         </ul>
       </div>
       </motion.div>
-      <motion.div whileInView={{ x: [200,0], opacity: [0, 1]}}
+      <motion.div whileInView={{ y: [200,0], opacity: [0, 1]}}
     transition={{ duration: 0.7}} className='app__guide-info2'> 
       <h1 className='big-text'>Abc kajakarza</h1>
       <div>

@@ -57,9 +57,10 @@
         justify-content: center;
         border: 1px solid rgb(50, 178, 50);
         box-shadow: 0px 0px 10px rgb(50, 178, 50, 0.1);
-        width: 70%;
+        width: 80%;
         height: auto;
         min-height: 125px;
+        margin: 1rem 0 0 0;
 
         &:hover {
             box-shadow: 0px 0px 10px rgb(50, 178, 50, 0.5);
@@ -98,6 +99,10 @@
     justify-content: start;
     align-items: center;
     text-align: center;
+
+    @media screen and (max-width: 739px) {
+        margin: 1rem 0 0 0;
+    }
 
     &:hover {
         box-shadow: 0px 0px 10px rgb(50, 178, 50, 0.5);

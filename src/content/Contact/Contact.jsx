@@ -47,8 +47,7 @@ const Contact = () => {
 
   return (
     <div className='app__contact'>
-      <motion.div whileInView={{ x: [-300,0], opacity: [0, 1]}}
-            transition={{ duration: 1}} className="app__contact-info">
+      <div className="app__contact-info">
             <div >
             <BiInfoCircle/>
 
@@ -56,7 +55,7 @@ const Contact = () => {
             Rezerwacje indywidualne lub grupowe przyjmujemy codziennie w godzinach 8:00 - 20:00, pod numerem telefonu 504-807-800 lub mailowo</h1>
 
             </div>
-          </motion.div>
+          </div>
        {!status ? (
          <form  onSubmit={handleSubmit} className="app__footer-form app__flex">
           <div className="app__flex">

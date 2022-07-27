@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import {motion} from 'framer-motion';
 import {
     AiOutlineArrowLeft, 
   AiOutlineArrowRight, 
@@ -55,13 +55,14 @@ const WSPGallery = ({galleryImages}) => {
         {
           galleryImages && galleryImages.map((slide, index) => {
             return(
-              <div 
+              <motion.div whileInView={{ opacity: [0, 1]}}
+    transition={{ duration: 1}}  
                 className='single' 
                 key={index}
                 onClick={ () => handleOpenModal(index) }
               >
                 <img src={slide.img} alt='' />
-              </div>
+              </motion.div>
             )
           })
         }
