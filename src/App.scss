@@ -3,6 +3,11 @@
   font-family: var(--font-base);
 }
 
+body {
+
+  overflow-x: hidden;
+}
+
 .app__whitebg {
   background-color: var(--white-color);
 }
