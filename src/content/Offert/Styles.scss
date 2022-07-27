@@ -53,13 +53,13 @@
     .app__paths-container-info {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
         justify-content: center;
         border: 1px solid rgb(50, 178, 50);
         box-shadow: 0px 0px 10px rgb(50, 178, 50, 0.1);
         width: 70%;
         height: auto;
-        min-height: 110px;
+        min-height: 125px;
 
         &:hover {
             box-shadow: 0px 0px 10px rgb(50, 178, 50, 0.5);
@@ -73,14 +73,14 @@
 
             width: 90%;
             height: 100%;
-            margin: 0.5rem;
+            margin: 1rem;
         }
 
         svg {
             color: rgb(50, 178, 50);
             width: 25px;
             height: 25px;
-            margin: 0.2rem;
+            margin: 0 0 0.5rem 0;
         }
     }
 

@@ -59,7 +59,7 @@
         }
 
         a {
-            color: var(--gray-color);
+            color: gray;
             text-decoration: none;
             flex-direction: column;
 
@@ -113,7 +113,7 @@
     svg {
         width: 70%;
         height: 70%;
-        color: var(--white-color);
+        color: white;
     }
 
     div {
@@ -133,7 +133,7 @@
         align-items: flex-end;
         flex-direction: column;
         background: url('../../assets/riverpex1.jpg');
-        background-color: var(--white-color);
+        background-color: white;
         background-size: cover;
         background-repeat: repeat;
         background-position: center;
@@ -168,7 +168,7 @@
                 position: relative;
 
                 a {
-                    color: var(--white-color);
+                    color: white;
                     text-decoration: none;
                     font-size: 1rem;
                     text-transform: uppercase;
