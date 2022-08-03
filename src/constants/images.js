@@ -13,7 +13,6 @@ import kajakisprzet4 from '../assets/kajakisprzet4.jpg';
 import kajakisprzet5 from '../assets/kajakisprzet5.jpg';
 import kajakisprzet6 from '../assets/kajakisprzet6.jpg';
 import kajakisprzet7 from '../assets/kajakisprzet7.jpg';
-import slider1 from '../assets/slider1.jpg';
 import slider7 from '../assets/slider7.png';
 import ssssss from '../assets/ssssss.jpg';
 import riverpex1 from '../assets/riverpex1.jpg';
@@ -40,7 +39,6 @@ export default {
   kajakisprzet6,
   kajakisprzet7,
   slider7,
-  slider1,
   ssssss,
   riverpex1,
   riverpex2,

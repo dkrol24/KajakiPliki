@@ -27,9 +27,8 @@ const Paths = () => {
        <motion.div  whileInView={{ opacity: [0, 1]}}
             transition={{ duration: 0.7}} className="app__paths-container-info">
             <div >
-            <BiInfoCircle/>
-
-            <p className='p-text'>Wszystkich uczestników uprzejmie prosimy o przybycie 15 min wcześniej w 
+          
+            <p className='p-text'><BiInfoCircle/> Wszystkich uczestników uprzejmie prosimy o przybycie 15 min wcześniej w 
             celu dopełnienia wszelkich formalności związanych z wypożyczeniem sprzętu.</p>
 
             </div>

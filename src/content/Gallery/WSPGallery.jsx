@@ -56,7 +56,7 @@ const WSPGallery = ({galleryImages}) => {
           galleryImages && galleryImages.map((slide, index) => {
             return(
               <motion.div whileInView={{ opacity: [0, 1]}}
-    transition={{ duration: 1}}  
+    transition={{ duration: 1}}
                 className='single' 
                 key={index}
                 onClick={ () => handleOpenModal(index) }

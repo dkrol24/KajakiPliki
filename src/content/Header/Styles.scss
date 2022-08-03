@@ -99,21 +99,26 @@
 
         div {
             display: flex;
-            flex-direction: column;
-            align-items: flex-start;
+            flex-direction: row;
+            align-items: center;
 
             width: 90%;
             height: 100px;
+
             margin: 0.5rem;
         }
+
+        div svg {
+            color: rgb(50, 178, 50);
+            width: 20px;
+            height: 18px;
+            margin: 0;
+            padding: 0;
+        }
+
     }
 
-    .app__header-content-info svg {
-        color: rgb(50, 178, 50);
-        width: 25px;
-        height: 25px;
-        margin: 0.2rem;
-    }
+
 
 
 

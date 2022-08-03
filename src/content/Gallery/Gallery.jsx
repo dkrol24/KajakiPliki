@@ -7,9 +7,6 @@ import './Styles.scss'
 const Gallery = () => {
     const galleryImages = [
         {
-            img: images.slider1
-        },
-        {
           img: images.home1
         },
         {

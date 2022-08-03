@@ -10,9 +10,10 @@
 
 .galleryWrap .single {
     width: 300px;
-    height: auto;
+    height: 175px;
     cursor: pointer;
-    margin: 0.2rem;
+    margin: 2rem;
+    overflow: hidden;
 
     @media screen and (max-width: 450px) {
         width: 90%;

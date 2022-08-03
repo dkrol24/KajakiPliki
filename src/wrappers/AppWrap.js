@@ -8,9 +8,10 @@ const AppWrap = (Component,idName, classNames) => function HOC() {
       <div className='app__wrapper app__flex'>
         <Component/>
         <div className='copyright'>
-          <p className='p-text'>Numer Telefonu: 504 807 800</p>
-          <p className='p-text'>E-mail: rezerwacje@kajakowawarka.pl</p>
-          <p className='p-text'>Adres: Nowy Zjazd 4a, 05-660 Warka</p>
+          <p className='p-text'>
+           <span className='copyrightSpan'>Numer Telefonu:</span> 504 807 800</p>
+          <p className='p-text'> <span className='copyrightSpan'>E-mail:</span> rezerwacje@kajakowawarka.pl</p>
+          <p className='p-text'><span className='copyrightSpan'>Miejsce zbiórki:</span> Nowy Zjazd 4a, 05-660 Warka</p>
         </div>
       </div>
       <NavigationDots active={idName}/>
