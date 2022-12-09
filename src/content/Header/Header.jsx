@@ -32,7 +32,7 @@ const Header = () => {
               }}
               
               className='app__header-content-text-circle'>
-              <p className='bold-text'>{prop.pic}</p>
+              <div className='circle-svg'>{prop.pic}</div>
               </motion.div>
               <p className='p-text' style={{marginTop:'1rem'}}>{prop.title}</p>
             </motion.div>

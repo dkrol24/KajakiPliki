@@ -1,6 +1,7 @@
 .app {
   background-color: var(--primary-color);
   font-family: var(--font-base);
+
 }
 
 body {
@@ -111,6 +112,10 @@ body {
   @media screen and (min-width: 2000px) {
     font-size: 1.75rem;
   }
+
+  @media screen and (max-width: 930px) {
+    font-size: 0.7rem;
+  }
 }
 
 .stroke-text {
@@ -122,6 +127,7 @@ body {
 
 .bold-text {
   font-size: 1rem;
+  line-height: 24px;
   font-weight: 400;
   color: var(--black-color);
   text-align: left;
